@@ -8,3 +8,10 @@ An open-graph image generator.
 /api/og
 ```
 
+Env:
+
+```bash
+DOMAIN=
+```
+
+* The domain starts with protocol - https:// or http://

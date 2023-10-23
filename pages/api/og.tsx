@@ -1,7 +1,7 @@
 import { ImageResponse } from '@vercel/og'
 import { NextRequest } from 'next/server'
 
-export const deploymentURL = 'https://3000-jiale0709-og-fkwiv85p271.ws-us105.gitpod.io'
+export const deploymentURL = process.env.DOMAIN
 
 export const config = {
   runtime: 'edge',
